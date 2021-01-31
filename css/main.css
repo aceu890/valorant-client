@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(41, 41, 41);  
+}
+
+.gui-complete {
+  background-color:#f9f9f9;
+  padding:309px 69px ;
+  width: 60%;
+  margin: auto;
+  margin-top: 94px;
+}
+
+.logo {
+  width: 100px;
+  height:100px;
+}
