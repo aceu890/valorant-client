@@ -4,13 +4,29 @@ body {
 
 .gui-complete {
   background-color:#f9f9f9;
-  padding:309px 69px ;
+  padding:40px 69px ;
   width: 60%;
   margin: auto;
-  margin-top: 94px;
+  margin-top: 60px;
 }
 
 .logo {
-  width: 100px;
-  height:100px;
+  width: 150px;
+  height:150px;
+  margin-left: 55px;
+}
+
+.form input {
+  display: block;
+  margin-top: 17px;
+  padding:13.5px 55px ;
+}
+
+#fondo{
+  margin-left: 337px;
+  margin-top: -641px;
+}
+
+.form h2 {
+  margin-left: 100px;
 }
