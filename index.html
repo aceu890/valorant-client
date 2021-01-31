@@ -11,29 +11,36 @@
 </head>
 
 <body>
-  <div class="gui-complete">
-    <img src="img/logo.png" alt="Logo" class="logo" draggable="false">
+  <div class="gui-valorant-left">
+    <img src="img/valorant-logo.png" alt="Logo" class="logo" draggable="false">
     <div class="form">
       <h2>Sign In</h2>
       <form>
         <input type="text" name="name" id="name" placeholder="USERNAME" autocomplete="off">
-        <input type="password" name="password" id="password" placeholder="PASSWORD">
-        <input type="button" value="facebook">
-        <input type="button" value="google">
-        <input type="button" value="mac">
-
+        <input type="password" name="password" id="password" placeholder="PASSWORD"><br>
+        <!-- REDES SOCIALES -->
+        <button id="face-btn" type="button" value="Facebook"><img id="face" src="img/face.png" alt=""></button>
+        <button id="google-btn" type="button" value="google"><img id="google" src="img/google.svg" alt=""></button>
+        <button id="mac-btn" type="button" value="mac"><img id="mac" src="img/mac.png" alt=""></button>
+        <br>
         <input type="checkbox" name="remember" id="remember">
         <label for="remember">Stay signed in</label>
-        
-        <input type="submit" value="Sign In">
+        <br>
+        <input type="submit" value="Sign In"><br>
         <label>CAN'T SIGN IN?</label>
+        <br>
         <label>CREATE ACCOUNT</label>
-      
+        
       </form>
+      <!-- <img id="fondo" src="img/fondo.png" alt=""> -->
     </div>
     <div>
-      <img id="fondo" src="img/fondo.png" alt="">
+      
     </div>
+  </div>
+  <!-- FOTO DERECHA -->
+  <div class="gui-valorant-right">
+  <img id="fondo" src="img/fondo.png" alt="">
   </div>
 
 </body>

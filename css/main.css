@@ -1,32 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
 body {
   background-color: rgb(41, 41, 41);  
 }
 
-.gui-complete {
+.gui-valorant-left {
   background-color:#f9f9f9;
-  padding:40px 69px ;
-  width: 60%;
-  margin: auto;
-  margin-top: 60px;
+  padding:50px 69px 590px ;
+  max-width: 21%;
+  max-height: 630px;
+  margin-left: 350px;
+  margin-top: 110px;
 }
 
 .logo {
-  width: 150px;
-  height:150px;
+  width: 85px;
+  height:85px;
   margin-left: 55px;
 }
 
-.form input {
-  display: block;
+.form .btn{
+  display: inline;
   margin-top: 17px;
   padding:13.5px 55px ;
+  background-color:#EDEDED;
 }
 
-#fondo{
-  margin-left: 337px;
-  margin-top: -641px;
-}
 
 .form h2 {
   margin-left: 100px;
 }
+
+.btn{
+  background-repeat:no-repeat;
+  height:10px;
+  width:10px;
+  background-position:center;
+  
+}
+
+#face {
+  width: 15px;
+  height: 15px;
+}
+
+#face-btn{
+  width: 95px;
+  height: 32px;
+  background-color: #1877F2;
+  border: none;
+  border-radius: 5px;
+  margin-top: 18px;
+}
+
+
+#google {
+  width: 15px;
+  height: 15px;
+}
+
+#google-btn {
+  background-color:#ffffff ;
+  width: 95px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 18px;
+  outline: none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0,0.1)
+}
+
+
+#mac {
+  width: 15px;
+  height: 15px;
+}
+
+#mac-btn {
+  background-color: black;
+  width: 95px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 18px;
+  outline: none;
+}
+
+/*FOTO YORUS*/
+.gui-valorant-right img {
+  display: inline;
+  margin-left: 750px;
+}
+
+#fondo{
+  /* margin-left: 337px; */
+  margin-top: -750px;
+  height: 648px;
+}
+
