@@ -7,42 +7,52 @@
   <title>Valorant</title>
   <link rel="stylesheet" href="css/main.css" type="text/css">
   <script src="js/app.js"></script>
+  <!-- ICONO DE VALORANT -->
   <link rel="icon" type="icon" href="img/icon.ico">
 </head>
 
 <body>
-  <div class="gui-valorant-left">
-    <img src="img/valorant-logo.png" alt="Logo" class="logo" draggable="false">
-    <div class="form">
-      <h2>Sign In</h2>
-      <form>
-        <input type="text" name="name" id="name" placeholder="USERNAME" autocomplete="off">
-        <input type="password" name="password" id="password" placeholder="PASSWORD"><br>
-        <!-- REDES SOCIALES -->
-        <button id="face-btn" type="button" value="Facebook"><img id="face" src="img/face.png" alt=""></button>
-        <button id="google-btn" type="button" value="google"><img id="google" src="img/google.svg" alt=""></button>
-        <button id="mac-btn" type="button" value="mac"><img id="mac" src="img/mac.png" alt=""></button>
-        <br>
-        <input type="checkbox" name="remember" id="remember">
-        <label for="remember">Stay signed in</label>
-        <br>
-        <input type="submit" value="Sign In"><br>
-        <label>CAN'T SIGN IN?</label>
-        <br>
-        <label>CREATE ACCOUNT</label>
-        
-      </form>
-      <!-- <img id="fondo" src="img/fondo.png" alt=""> -->
-    </div>
-    <div>
-      
+  <div class="container">
+    <div class="login-container">
+      <div class="register">
+        <div class="black-padding">
+        <img id="black-logo" src="img/valorant-logo.png" alt="">
+        </div>
+        <h2 id="h2-sign" >Sign in</h2>
+        <form action="">
+          <input type="text" placeholder="USERNAME" class="username">
+          <input type="password" placeholder="PASSWORD" class="pass">
+        </form>
+        <div class="redes">
+          <button id="face-btn" type="button" value="Facebook"><img id="face" src="img/face.png" alt=""></button>
+          <button id="google-btn" type="button" value="google"><img id="google" src="img/google.svg" alt=""></button>
+          <button id="mac-btn" type="button" value="mac"><img id="mac" src="img/mac.png" alt=""></button>
+        </div>
+        <!--TODO: CHECKBOX-->
+        <div class="check-stay">
+          <input type="checkbox" name="remember" id="remember">
+          <label for="remember">Stay signed in</label>
+        </div>
+        <!--TODO: BTN-ENTRAR-->
+        <div class="btn-enviar">
+          <input type="submit" class="submit" value="Enviar">
+        </div>
+        <!--TODO: FOOTER-->
+        <div class="footer">
+          <p class="linea1">CAN'T SIGN IN?</p>
+          <p class="linea2">CREATE ACCOUNT</p>
+          <p class="linea3">V21.1.0</p>
+        </div>
+      </div>
+      <!-- YORUS BACKGROUNDS-->
+      <div class="login">
+        <img src="img/fondo.png" alt="">
+      </div>
     </div>
   </div>
-  <!-- FOTO DERECHA -->
-  <div class="gui-valorant-right">
-  <img id="fondo" src="img/fondo.png" alt="">
-  </div>
-
 </body>
 
 </html>
+        
+
+

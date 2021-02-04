@@ -9,58 +9,77 @@
   font-family: "Roboto", sans-serif;
 }
 
-
 body {
-  background-color: rgb(41, 41, 41);  
+  background: #f1f1f1;
 }
 
-.gui-valorant-left {
-  background-color:#f9f9f9;
-  padding:50px 69px 590px ;
-  max-width: 21%;
-  max-height: 630px;
-  margin-left: 350px;
-  margin-top: 110px;
+.container {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo {
-  width: 85px;
-  height:85px;
-  margin-left: 55px;
+.login-container {
+  display: flex;
+  width: 405px;
+  height: 719.9px;
+  background: #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .2);
 }
 
-.form .btn{
-  display: inline;
-  margin-top: 17px;
-  padding:13.5px 55px ;
-  background-color:#EDEDED;
+.register {
+  padding-left: 122px;
+  padding-right: 122px;
+}
+/*TODO: LOGO VALORANT NEGRO*/
+#black-logo {
+  width: 90px;
+  height: 90px;
 }
 
-
-.form h2 {
-  margin-left: 100px;
+.black-padding {
+  padding-top: 40px;
 }
 
-.btn{
-  background-repeat:no-repeat;
-  height:10px;
-  width:10px;
-  background-position:center;
-  
+#h2-sign { 
+  padding-bottom: 25px;
 }
 
+.username{
+  background-color: #EDEDED;
+  border: none;
+  border-radius: 5px;
+  margin-left: -60px;
+  padding:10px;
+  width: 280px;
+}
+.pass{
+  background-color: #EDEDED;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: -60px;
+  padding:10px;
+  width: 280px;
+}
+/*REDES SOCIALES*/
 #face {
   width: 15px;
   height: 15px;
 }
 
 #face-btn{
-  width: 95px;
+  width: 90px;
   height: 32px;
+  margin-right: 3px;
   background-color: #1877F2;
   border: none;
   border-radius: 5px;
   margin-top: 18px;
+  margin-left: -60px;
+  cursor: pointer;
 }
 
 
@@ -70,14 +89,17 @@ body {
 }
 
 #google-btn {
+  margin-left: -4px;
+  cursor: pointer;
   background-color:#ffffff ;
-  width: 95px;
+  width: 90px;
   height: 32px;
   border: none;
   border-radius: 5px;
   margin-top: 18px;
   outline: none;
   box-shadow: 0px 2px 2px rgba(0, 0, 0,0.1)
+  
 }
 
 
@@ -88,23 +110,61 @@ body {
 
 #mac-btn {
   background-color: black;
-  width: 95px;
+  width: 90px;
   height: 32px;
   border: none;
   border-radius: 5px;
   margin-top: 18px;
+  margin-left: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.redes {
+  margin-top: 8px;
+}
+
+.check-stay {
+  margin-top: 10px;
+  margin-left: -60px;
+  font-size: 13px;
+  color: #B2B2B6;
+}
+
+#remember {
+  background-color: red;
+}
+
+.btn-enviar {
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.btn-enviar input {
+  background-color: #ffffff;
+  width: 65px;
+  height: 65px;
+  border: solid 2px #e0e0e0;
+  border-radius: 15px;
+  cursor: pointer;
   outline: none;
 }
 
-/*FOTO YORUS*/
-.gui-valorant-right img {
-  display: inline;
-  margin-left: 750px;
+.footer {
+margin-top: 85px;
+font-size: 12px;
+color: #B2B2B6;
 }
 
-#fondo{
-  /* margin-left: 337px; */
-  margin-top: -750px;
-  height: 648px;
+.linea1 {
+  margin-left: 43px;
+}
+.linea2 {
+  margin-top: 5px;
+  margin-left: 43px;
+}
+.linea3 {
+  margin-top: -14px;
+  margin-left: 200px;
 }
 
