@@ -50,32 +50,69 @@ body {
   box-shadow: 0px 10px 8px rgba(0, 0, 0, .2);
 }
 
+
+/*TODO: BOTONES-YORUS*/
 .btn-yorus1 {
-  padding-left: 22px;
-  padding-right: 19px;
-  padding-bottom: 35px;
+  cursor: pointer;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 40px;
   position: absolute;
-  left: 83.5%;
-  
+  left: 81%;
+  border: none;
+  background: none;
+  background-image: url(../img/mini.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-yorus1:hover {
+  background-color:#ffffff ;
+  opacity: 0.2;
 }
 
 .btn-yorus2 {
-  padding-left: 22px;
-  padding-right: 19px;
-  padding-bottom: 35px;
+  cursor: pointer;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 40px;
   position: absolute;
-  left: 88.8%;
+  left: 87.1%;
+  border: none;
+  background: none;
+  background-image: url(../img/pregunta.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
   
 }
 
-.btn-yorus3 {
-  padding-left: 22px;
-  padding-right: 19px;
-  padding-bottom: 35px;
-  position: absolute;
-  left: 94.2%;
+.btn-yorus2:hover {
+  background-color:#ffffff ;
+  opacity: 0.2;
 }
 
+
+
+.btn-yorus3 {
+  cursor: pointer;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 40px;
+  position: absolute;
+  left: 93.5%;
+  border: none;
+  background: none;
+  background-image: url(../img/close.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.btn-yorus3:hover {
+  background-color:#e94b4e ;
+  opacity:1;
+}
 
 /*TODO: LOGO VALORANT NEGRO*/
 #black-logo {
